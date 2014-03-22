@@ -16,5 +16,4 @@ Example:
 main ("scarlet.jpg", 20)
 </pre>
 
-![Input image](https://raw.github.com/koderok/image-stylize/master/scarlet.jpg)
-![Result image](https://raw.github.com/koderok/image-stylize/master/scarlet-result.jpg)
+![Demo](https://raw.github.com/koderok/image-stylize/master/assets/demo.png)
