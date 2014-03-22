@@ -5,7 +5,7 @@ This program abstracts images by removing details from them and makes them carto
 ## How to run
 
 <pre>
-main (*image_name*, *num_colors*)
+main (<i>image_name</i>,<i>num_colors</i>)
 </pre>
 
 *num_colors* specifies number of colors in the output image. Smaller this value, more abstraction happens in the output image.
