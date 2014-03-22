@@ -1,6 +1,6 @@
-# Image stylization
+# Image stylizer
 
-This program abstracts images by removing details from them and makes them cartoon-like. It is based on the paper [Stylization and Abstraction of Photographs](https://www.cs.rutgers.edu/~decarlo/pubs/sg02.pdf).
+This program abstracts images by removing details from them and makes them cartoon-like. It is based on the paper [Stylization and Abstraction of Photographs](https://www.cs.rutgers.edu/~decarlo/pubs/sg02.pdf) *(SIGGRAPH 2002), by DeCarlo and Santella*.
 
 ## How to run
 
