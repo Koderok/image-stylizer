@@ -1,0 +1,19 @@
+image = imread('dp.jpg');
+image = rgb2gray(image);
+xdog_output = xdog(image);
+quant_result = median_cut(image,3);
+quant_result = quant_result/256.0;
+
+filter = fspecial('gaussian', 15, 3);
+quant_result = conv2(quant_result, filter, 'same');
+
+[m n] = size(image);
+output = zeros(m,n);
+for i=1:m
+    for j=1:n
+        output(i,j) = xdog_output(i,j)*quant_result(i,j);
+    end
+end
+
+figure, imshow(image);
+figure, imshow(output);
