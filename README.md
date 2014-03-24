@@ -13,7 +13,7 @@ main (<i>image_name</i>, <i>num_colors</i>)
 Example:
 
 <pre>
-main ("scarlet.jpg", 20)
+main ('scarlet.jpg', 20)
 </pre>
 
 ![Demo](https://raw.github.com/koderok/image-stylize/master/assets/demo.png)
